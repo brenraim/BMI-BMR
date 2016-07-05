@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B57BEB421D25B1B0002A44AB /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = B57BEB411D25B1B0002A44AB /* normal.png */; };
+		B57BEB441D25B1BD002A44AB /* fat.png in Resources */ = {isa = PBXBuildFile; fileRef = B57BEB431D25B1BD002A44AB /* fat.png */; };
+		B57BEB481D25D8E0002A44AB /* skinny.png in Resources */ = {isa = PBXBuildFile; fileRef = B57BEB471D25D8E0002A44AB /* skinny.png */; };
+		B593CDEE1D244DFA005B9FC0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B593CDED1D244DFA005B9FC0 /* Person.m */; };
 		B5FDEB031D2306D900FC5EF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FDEB021D2306D900FC5EF7 /* main.m */; };
 		B5FDEB061D2306D900FC5EF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FDEB051D2306D900FC5EF7 /* AppDelegate.m */; };
 		B5FDEB091D2306D900FC5EF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FDEB081D2306D900FC5EF7 /* ViewController.m */; };
@@ -27,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B57BEB411D25B1B0002A44AB /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		B57BEB431D25B1BD002A44AB /* fat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fat.png; sourceTree = "<group>"; };
+		B57BEB471D25D8E0002A44AB /* skinny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skinny.png; sourceTree = "<group>"; };
+		B593CDEC1D244DFA005B9FC0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B593CDED1D244DFA005B9FC0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		B5FDEAFE1D2306D900FC5EF7 /* BMICalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMICalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FDEB021D2306D900FC5EF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5FDEB041D2306D900FC5EF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,10 +94,15 @@
 				B5FDEB051D2306D900FC5EF7 /* AppDelegate.m */,
 				B5FDEB071D2306D900FC5EF7 /* ViewController.h */,
 				B5FDEB081D2306D900FC5EF7 /* ViewController.m */,
+				B593CDEC1D244DFA005B9FC0 /* Person.h */,
+				B593CDED1D244DFA005B9FC0 /* Person.m */,
 				B5FDEB0A1D2306D900FC5EF7 /* Main.storyboard */,
 				B5FDEB0D1D2306D900FC5EF7 /* Assets.xcassets */,
 				B5FDEB0F1D2306D900FC5EF7 /* LaunchScreen.storyboard */,
 				B5FDEB121D2306D900FC5EF7 /* Info.plist */,
+				B57BEB411D25B1B0002A44AB /* normal.png */,
+				B57BEB471D25D8E0002A44AB /* skinny.png */,
+				B57BEB431D25B1BD002A44AB /* fat.png */,
 				B5FDEB011D2306D900FC5EF7 /* Supporting Files */,
 			);
 			path = BMICalculator;
@@ -192,6 +206,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5FDEB111D2306D900FC5EF7 /* LaunchScreen.storyboard in Resources */,
+				B57BEB481D25D8E0002A44AB /* skinny.png in Resources */,
+				B57BEB421D25B1B0002A44AB /* normal.png in Resources */,
+				B57BEB441D25B1BD002A44AB /* fat.png in Resources */,
 				B5FDEB0E1D2306D900FC5EF7 /* Assets.xcassets in Resources */,
 				B5FDEB0C1D2306D900FC5EF7 /* Main.storyboard in Resources */,
 			);
@@ -213,6 +230,7 @@
 			files = (
 				B5FDEB091D2306D900FC5EF7 /* ViewController.m in Sources */,
 				B5FDEB061D2306D900FC5EF7 /* AppDelegate.m in Sources */,
+				B593CDEE1D244DFA005B9FC0 /* Person.m in Sources */,
 				B5FDEB031D2306D900FC5EF7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +420,7 @@
 				B5FDEB221D2306D900FC5EF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5FDEB231D2306D900FC5EF7 /* Build configuration list for PBXNativeTarget "BMICalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +429,7 @@
 				B5FDEB251D2306D900FC5EF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
